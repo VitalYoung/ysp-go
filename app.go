@@ -34,7 +34,7 @@ func main() {
 
     scanner := bufio.NewScanner(file)
     re, _ := regexp.Compile("tvg-id=\"([0-9]*)\"") // tvg-id="600004092"
-    out_str := ""
+    out_str := "#EXTM3U\n"
     for scanner.Scan() {
       if re.MatchString(scanner.Text()) {
         livepid := re.FindStringSubmatch(scanner.Text())[1]
