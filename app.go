@@ -1,19 +1,60 @@
 package main
 
 import (
+  "os"
   "fmt"
+  "log"
+  "bufio"
+  "context"
+  "regexp"
   "net/http"
   "net/url"
   "encoding/json"
   "github.com/go-chi/chi"
   "github.com/go-chi/chi/middleware"
+  "github.com/go-redis/redis"
 )
 
 func main() {
   r := chi.NewRouter()
   r.Use(middleware.Logger)
-  r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-    w.Write([]byte("Welcome go chi\n"))
+  ctx := context.Background()
+  rdb := redis.NewClient(&redis.Options{
+    Addr: "localhost:6379",
+    Password: "",
+    DB: 0,
+  })
+
+  r.Get("/ysp.m3u8", func(w http.ResponseWriter, r *http.Request) {
+    file, err := os.Open("./ysp_videos.txt")
+    if err != nil {
+      log.Fatal(err)
+    }
+    defer file.Close()
+
+    scanner := bufio.NewScanner(file)
+    re, _ := regexp.Compile("tvg-id=\"([0-9]*)\"") // tvg-id="600004092"
+    out_str := ""
+    for scanner.Scan() {
+      if re.MatchString(scanner.Text()) {
+        livepid := re.FindStringSubmatch(scanner.Text())[1]
+        // fmt.Println(livepid)
+        val, err := rdb.Get(ctx, livepid).Result()
+        if err == redis.Nil {
+          fmt.Println("key [" + livepid + "] does not exist\n")
+        } else if err != nil {
+          fmt.Println(err)
+        } else {
+          out_str += scanner.Text() + "\n" + val + "\n"
+        }
+      }
+    }
+
+    if err := scanner.Err(); err != nil {
+        log.Fatal(err)
+    }
+    w.Header().Add("Content-Type", "application/x-mpegURL")
+    w.Write([]byte(out_str))
   })
 
   r.Post("/upload", func(w http.ResponseWriter, r *http.Request) {
@@ -34,7 +75,8 @@ func main() {
     }
     var ysp Ysp
     _ = json.NewDecoder(r.Body).Decode(&ysp)
-    w.Write([]byte(fmt.Sprintf("vkey: %v, livepid: %v, playurl: %v\n", ysp.Vkey, ysp.Livepid, ysp.Playurl)))
+    _ = rdb.Set(ctx, ysp.Livepid, ysp.Playurl, 0)
+    w.Write([]byte(fmt.Sprintf("success\n")))
   })
   http.ListenAndServe(":3000", r)
 }
