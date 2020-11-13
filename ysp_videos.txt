@@ -1,4 +1,5 @@
 
+#EXTINF:-1 tvg-id="600002264" tvg-name="CCTV4K" tvg-language="Chinese;Mandarin Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="General",CCTV中国中央电视台-1 综合
 超高清4K:https://m.yangshipin.cn/video?type=3&vid=2000266303&pid=600002264
 #EXTINF:-1 tvg-id="600001859" tvg-name="CCTV1" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/65/CCTV-1_Logo.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="General",CCTV中国中央电视台-1 综合
 CCTV1:https://m.yangshipin.cn/video?type=1&vid=2000210103&pid=600001859
@@ -34,6 +35,8 @@ CCTV14:https://m.yangshipin.cn/video?type=1&vid=2000204403&pid=600001809
 CCTV15:https://m.yangshipin.cn/video?type=1&vid=2000205003&pid=600001815
 #EXTINF:-1 tvg-id="600001810" tvg-name="CCTV17" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/3c/CCTV-17_Logo.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="Music",CCTV中国中央电视台-17 农业农村 
 CCTV17:https://m.yangshipin.cn/video?type=1&vid=2000204203&pid=600001810
+#EXTINF:-1 tvg-id="600014550" tvg-name="CGTN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="Music",CGTN 
+CCTV17:https://m.yangshipin.cn/video?type=1&pid=600014550
 
 #【卫视】
 #EXTINF:-1 tvg-id="600002309" tvg-name="北京卫视" tvg-language="Chinese" tvg-logo="http://image2.sina.com.cn/ent/v/2006-04-28/U1343P28T3D1068267F326DT20060428153108.jpg" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",北京卫视
@@ -44,10 +47,6 @@ CCTV17:https://m.yangshipin.cn/video?type=1&vid=2000204203&pid=600001810
 东方卫视: https://m.yangshipin.cn/video?type=1&pid=600002483
 #EXTINF:-1 tvg-id="600002520" tvg-name="浙江卫视" tvg-language="Chinese" tvg-logo="http://img01.cztv.com/201606/29/af4bb930e4ce3ec3528bdebdd88fdac3.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",浙江卫视
 浙江卫视: https://m.yangshipin.cn/video?type=1&pid=600002520
-#EXTINF:-1 tvg-id="600002532" tvg-name="安徽卫视" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/12/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",安徽卫视
-安徽卫视: https://m.yangshipin.cn/video?type=1&pid=600002532
-#EXTINF:-1 tvg-id="600002481" tvg-name="深圳卫视" tvg-language="Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",深圳卫视
-深圳卫视: https://m.yangshipin.cn/video?type=1&pid=600002481
 #EXTINF:-1 tvg-id="600002475" tvg-name="湖南卫视" tvg-language="Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",湖南卫视
 湖南卫视: https://m.yangshipin.cn/video?type=1&pid=600002475
 #EXTINF:-1 tvg-id="600002508" tvg-name="湖北卫视" tvg-language="Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",湖北卫视
@@ -58,16 +57,14 @@ CCTV17:https://m.yangshipin.cn/video?type=1&vid=2000204203&pid=600001810
 广西卫视: https://m.yangshipin.cn/video?type=1&pid=600002509
 #EXTINF:-1 tvg-id="600002498" tvg-name="黑龙江卫视" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/49/HLJTV_logo.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",黑龙江卫视
 黑龙江卫视: https://m.yangshipin.cn/video?type=1&pid=600002498
-#EXTINF:-1 tvg-id="600002505" tvg-name="辽宁卫视" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/liaoningtv.jpg" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",辽宁卫视
-辽宁卫视: https://m.yangshipin.cn/video?type=1&pid=600002505
+#EXTINF:-1 tvg-id="600002506" tvg-name="海南卫视" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/f/f8/Hainan_TV.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",海南卫视
+海南卫视: https://m.yangshipin.cn/video?type=1&pid=600002506
 #EXTINF:-1 tvg-id="600002531" tvg-name="重庆卫视" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/e/e5/CQTV_new_logo.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",重庆卫视
 重庆卫视: https://m.yangshipin.cn/video?type=1&pid=600002531
+#EXTINF:-1 tvg-id="600002481" tvg-name="深圳卫视" tvg-language="Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",深圳卫视
+深圳卫视: https://m.yangshipin.cn/video?type=1&pid=600002481
 #EXTINF:-1 tvg-id="600002516" tvg-name="四川卫视" tvg-language="Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",四川卫视
 四川卫视: https://m.yangshipin.cn/video?type=1&pid=600002516
-#EXTINF:-1 tvg-id="600002513" tvg-name="山东卫视" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/shandongtv.jpg" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",山东卫视
-山东卫视: https://m.yangshipin.cn/video?type=1&pid=600002513
-#EXTINF:-1 tvg-id="600002493" tvg-name="河北卫视" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/HebeiTV.png/200px-HebeiTV.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",河北卫视
-河北卫视: https://m.yangshipin.cn/video?type=1&pid=600002493
 #EXTINF:-1 tvg-id="600002525" tvg-name="河南卫视" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/15/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",河南卫视
 河南卫视: https://m.yangshipin.cn/video?type=1&pid=600002525
 #EXTINF:-1 tvg-id="600002484" tvg-name="东南卫视" tvg-language="Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",东南卫视
@@ -76,3 +73,12 @@ CCTV17:https://m.yangshipin.cn/video?type=1&vid=2000204203&pid=600001810
 贵州卫视: https://m.yangshipin.cn/video?type=1&pid=600002490
 #EXTINF:-1 tvg-id="600002503" tvg-name="江西卫视" tvg-language="Chinese" tvg-logo="" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",江西卫视
 江西卫视: https://m.yangshipin.cn/video?type=1&pid=600002503
+#EXTINF:-1 tvg-id="600002505" tvg-name="辽宁卫视" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/liaoningtv.jpg" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",辽宁卫视
+辽宁卫视: https://m.yangshipin.cn/video?type=1&pid=600002505
+#EXTINF:-1 tvg-id="600002532" tvg-name="安徽卫视" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/12/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",安徽卫视
+安徽卫视: https://m.yangshipin.cn/video?type=1&pid=600002532
+#EXTINF:-1 tvg-id="600002493" tvg-name="河北卫视" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/HebeiTV.png/200px-HebeiTV.png" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",河北卫视
+河北卫视: https://m.yangshipin.cn/video?type=1&pid=600002493
+#EXTINF:-1 tvg-id="600002513" tvg-name="山东卫视" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/shandongtv.jpg" tvg-country="CN" tvg-url="http://epg.51zmt.top:8000/e.xml.gz" group-title="",山东卫视
+山东卫视: https://m.yangshipin.cn/video?type=1&pid=600002513
+
